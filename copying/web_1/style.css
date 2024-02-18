@@ -102,12 +102,13 @@ li{
 
 #Bicycle ul{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
 }
 
 #Bicycle li{
-    width: 32%;
+    width: 49%;
 }
 
 #footer{
