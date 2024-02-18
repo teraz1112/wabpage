@@ -31,9 +31,13 @@ li{
   color: black;
 }
 
+/*-------------------------------------------
+header
+-------------------------------------------*/
+
 #header{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
 }
@@ -61,6 +65,10 @@ li{
   opacity: 0.7;
 }
 
+/*-------------------------------------------
+メインビジュアル
+-------------------------------------------*/
+
 .mainvisual{
   margin-bottom: 60px;
 }
@@ -72,7 +80,9 @@ li{
   object-fit: cover;
 }
 
-
+/*-------------------------------------------
+セクション
+-------------------------------------------*/
 
 .section-title {
   display: inline-block;
@@ -82,7 +92,26 @@ li{
   border-bottom: solid 1px #383e45;
 }
 
-#About .content{
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+
+#Works ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+#Works li{
+  width: 49%;
+}
+
+/*-------------------------------------------
+Profile
+-------------------------------------------*/
+
+#Profile .content{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,26 +119,34 @@ li{
   margin: 0 auto; 
 }
 
-#About img{
+#Profile img{
   width: 100px;
   border-radius: 50%;
 }
 
-#About .text {
+#Profile .text {
   text-align: left;
   margin-left: 30px;
 }
 
-#Bicycle ul{
+/*-------------------------------------------
+Awards
+-------------------------------------------*/
+
+#Awards ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
 }
 
-#Bicycle li{
+#Awards li{
   width: 49%;
 }
+
+/*-------------------------------------------
+footer
+-------------------------------------------*/
 
 #footer{
   padding: 10px 0;
@@ -117,22 +154,47 @@ li{
   
 }
 
+/*-------------------------------------------
+メディアクエリ
+-------------------------------------------*/
+
 @media (max-width: 600px) {
-  #About .content{
+  
+  /*-------------------------------------------
+  Works
+  -------------------------------------------*/  
+  #Works ul{
+    flex-direction: column;
+  }
+
+  #Works li{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  
+  /*-------------------------------------------
+  Profile
+  -------------------------------------------*/
+  #Profile .content{
       flex-direction: column;
   }
 
-  #About .text{
+  #Profile .text{
       text-align: center;
       margin: 0 10px;
   }
 
-  #Bicycle ul{
-      flex-direction: column;
+  /*-------------------------------------------
+  Awards
+  -------------------------------------------*/
+  #Awards ul{
+    flex-direction: column;
   }
-  
-  #Bicycle li{
+
+  #Awards li{
       width: 100%;
       margin-bottom: 30px;
   }
+
+  
 }
