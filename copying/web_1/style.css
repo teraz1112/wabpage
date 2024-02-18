@@ -115,3 +115,23 @@ li{
     text-align: center;
     
 }
+
+@media (max-width: 600px) {
+    #About .content{
+        flex-direction: column;
+    }
+
+    #About .text{
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    #Bicycle ul{
+        flex-direction: column;
+    }
+    
+    #Bicycle li{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
