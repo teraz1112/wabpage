@@ -1,37 +1,117 @@
-body{
-    width: 960px;
+html {
+    font-size: 100%;
 }
 
-a {
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+}
+
+a{
     text-decoration: none;
 }
 
-.main{
-    text-align: center;
+img {
+    max-width: 100%;
 }
 
-.header {
-    width: 960px;
+li{
+    list-style: none;
+}
+
+
+.wrapper{
+    text-align: center;
+    max-width: 960px;
     padding: 0 4%;
+    margin: 0 auto 100px auto;
 }
 
-.mainimage{
-    height: 600px;
+.wrapper a{
+    color: black;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#header ul{
+    display: flex;
+}
+
+#header li{
+    margin-left: 30px;
+}
+
+.site-title{
+    min-width: 80px;
+    width: 120px;
+    line-height: 1px;
+    padding: 10px 0;
+}
+
+.site-title a{
+    display: block;
+}
+
+#header li a:hover{
+    opacity: 0.7;
+}
+
+.mainvisual{
+    margin-bottom: 60px;
+}
+
+.mainvisual img{
     width: 100%;
+    max-height: 600px;
+    max-width: 1920px;
+    object-fit: cover;
 }
 
-h2 {
-    text-decoration: underline;
+
+
+.section-title {
+    display: inline-block;
+    font-size: 2rem;
     text-align: center;
-    margin: 0 ;
-    font-size:25px;
+    margin-bottom: 60px;
+    border-bottom: solid 1px #383e45;
+  }
+
+#About .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; 
+    margin: 0 auto; 
 }
 
+#About img{
+    width: 100px;
+    border-radius: 50%;
+}
 
-.myimage {
-    border-radius: 50%; /* 要素を丸く切り取る */
-    /* オプション: 横幅と高さが同じ場合、丸が完全な円になります */
-    width: 90px;
-    height: 90px;
+#About .text {
+    text-align: left;
+    margin-left: 30px;
+}
 
+#Bicycle ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#Bicycle li{
+    width: 32%;
+}
+
+#footer{
+    padding: 10px 0;
+    text-align: center;
+    
 }
