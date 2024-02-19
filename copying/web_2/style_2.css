@@ -1,0 +1,160 @@
+img{
+    width: 100%;
+}
+
+p{
+    color: rgb(70, 69, 69);
+}
+
+h2,h3{
+    color: rgb(53, 52, 52);
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-color: rgb(70, 69, 69);
+    color: rgb(70, 69, 69);
+}
+
+ol{
+    display: inline-block;
+    color: rgb(70, 69, 69);
+    flex-direction: column;
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 100px auto;
+    padding: 0 4%;
+}
+
+/* header */
+
+.head{
+    height: 100px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.head h1{
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+/* mainvisual */
+
+.mainvisual {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* contents */
+
+/* index&detail */
+#index ul{
+    border: 1px solid black;
+    width: 80%;
+    display: inline-block;
+    color: rgb(70, 69, 69);
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.sentence{
+    background-color: rgb(247, 244, 244);
+    padding: 3% 0;
+    margin: 80px 0 80px 0;
+}
+
+
+
+.detail-text{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.horizontal-line {
+    border-right: 1px solid rgb(22, 20, 20); /* 横線のスタイルを設定 */
+    height: 180px; /* 横線の幅を設定 */
+}
+.sentence h2{
+    font-size: 18px;
+}
+.sentence h3{
+    font-size: 15px;
+    text-align: left;
+}
+
+#detail p{
+    text-align:left ;
+    font-size: 14px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+.left ul{
+
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding-right: 40px;
+    width: 200px;
+}
+.left p{
+    font-size: 14px;
+    margin: 0 auto 10px auto;
+}
+.left h3{
+    
+    margin-bottom:0px;
+}
+#detail a{
+    text-align:left ;
+}
+
+/* image */
+
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+#image img{
+    width: 48%;
+}
+
+
+@media (max-width: 10px) {
+        
+    
+
+    
+
+    .sentence p{
+        font-size: 14px;
+    }
+
+    .horizontal-line {
+        border-top: 1px solid rgb(70, 69, 69); /* 横線のスタイルを設定 */
+        width: 100%; /* 横線の幅を設定 */
+        margin: 30px 0;
+    }
+    
+}
+
