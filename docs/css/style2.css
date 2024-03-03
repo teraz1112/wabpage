@@ -66,6 +66,7 @@ li{
 
 #mainvisual{
     height: 420px;
+    width: 100%;
     object-fit: cover;
     margin-bottom: 70px;
 }
