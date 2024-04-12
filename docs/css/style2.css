@@ -26,14 +26,15 @@ li{
     margin: 0 auto 80px auto;
     font-size: 0.9rem;
     padding: 0 4%;
-  }
+}
 
-  .mywrapper {
-    max-width: 1060px;
-    margin: 0 auto 80px auto;
-    font-size: 0.9rem;
-    padding: 0 4%;
-  }
+
+.mywrapper {
+max-width: 1060px;
+margin: 0 auto 80px auto;
+font-size: 0.9rem;
+padding: 0 4%;
+}
 
 /* header */
 
@@ -173,7 +174,7 @@ li{
 
 #works img{
     width: 100%;
-    height: 75%;
+    height: 65%;
     object-fit: cover;
     border: solid 0.1px rgb(202, 201, 201);
 }
@@ -301,10 +302,18 @@ li{
         display: block;
         padding-bottom: 10px;
     }
+
+    #header ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
     
     #header li{
         font-size: 0.8rem;
-    margin-left: 20px;
+        margin: 5px 15px;
+
     }
 
     #header li:first-child {
