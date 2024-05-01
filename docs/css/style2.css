@@ -163,13 +163,14 @@ padding: 0 4%;
 
 #works h3{
     margin-top: 5px;
+    margin-bottom: 3px;
     font-size: 0.9rem;
 }
 
 
 #works p{
     font-size: 0.8rem;
-    margin-top: 5px;
+    margin: 10px 0;
 }
 
 #works img{
@@ -194,7 +195,7 @@ padding: 0 4%;
     margin-bottom: 20px;
 }
 #news dt {
-    width: 10%;
+    width: 20%;
     border-bottom: solid 1px #c8c8c8;
     padding: 15px;
 }
